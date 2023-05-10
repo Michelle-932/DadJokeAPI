@@ -1,0 +1,100 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap);
+
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 60rem;
+    display: flex;
+}
+
+.left {
+    width: 33rem;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.right {
+    width: 28rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.right,.left {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.right > span {
+    padding-top: 20px;
+    color: grey;
+    font-family: "Montserrat";
+}
+
+.title {
+    font-size: 30px;
+    font-family: "Fraunces";
+}
+
+.joke {
+    Font-family: "Montserrat";
+    line-height: 1.5em;
+    color: grey;
+    font-size: 15px;
+}
+
+.button {
+    background-color: rgb(158, 110, 155);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Montserrat";
+    border-radius: 12px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
