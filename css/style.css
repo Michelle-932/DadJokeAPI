@@ -5,6 +5,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap);
 
+:root {
+    --white: hsl(0,0%,100%);
+    --light-gray: hsl(212,45%,89%);
+    --mint-blue: #e3f6f5;
+    --dark-mint: #bae8e8;
+    --dark-blue: #272643;
+    --font-size: 15px;
+    --font-family:'Outfit';
+    background-color: var(--dark-blue);
+}
 
 /* Box Model Hack */
 *{
@@ -16,78 +26,84 @@
 /*******************************************/
 
 body {
-    background-color: hsl(30, 38%, 92%);
+    background-color: var(--dark-blue);
     margin: 0;
     padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 html {
     font-size: 62.5%;
 }
 
+
 .container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+    width: 60em;
+    display: float;
+    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    background-color: var(--white);
+    border-radius: 1.5em;
 }
 
 .card {
-    max-width: 60rem;
+    
     display: flex;
+    flex-direction: column;
 }
 
-.left {
-    width: 33rem;
-}
-
-.div {
+.topcard {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
+.bottomcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 img {
-    width: 50%;
-    height: 50%;
-    border-radius: 12px 0px 0px 12px;
-}
-
-.right {
-    width: 28rem;
-    background: white;
-    padding: 2rem;
-    border-radius: 0px 12px 12px 0px;
-}
-
-.right,.left {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.right > span {
-    padding-top: 20px;
-    color: grey;
-    font-family: "Montserrat";
+    align-self: center;
+    width: 90%;
+    height: 90%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-radius: 8px;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 4.5em;
     font-family: "Fraunces";
+    color: var(--dark-blue);
+    text-align: center;
+
 }
 
 .joke {
     Font-family: "Montserrat";
     line-height: 1.5em;
     color: grey;
-    font-size: 15px;
+    font-size: 1.8rem;
+    height: 150px;
+    max-width: 400px;
+    text-align: center; 
 }
 
 .button {
-    background-color: rgb(158, 110, 155);
+    align-items: center;
+    background-color: var(--dark-mint);
     border: none;
     color: white;
     padding: 10px;
-    width: 100%;
+    width: 50%;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
@@ -95,6 +111,22 @@ img {
     border-radius: 12px;
 }
 
+.tribute {
+    font-family: "montserrat";
+    line-height: 1.5em;
+    color: grey;
+    font-size: 1.8rem;
+    text-align: center;
+    align-self: center;
+    width: 90%;
+    margin-bottom: 1em;
+    
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 1.5rem; 
+    text-align: center; 
+    color: var(--white);
+    padding-top: 10px;
+}
+
