@@ -28,8 +28,7 @@
 body {
     background-color: var(--dark-blue);
     margin: 0;
-    padding: 0;
-    height: 100vh;
+    padding-top: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
