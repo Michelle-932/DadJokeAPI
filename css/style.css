@@ -129,6 +129,14 @@ img {
     padding-top: 10px;
 }
 
+.attribution a:visited {
+    color: var(--white);
+}
+
+.attribution a:hover {
+    color: var(--white);
+}
+
 @media (max-width: 769px) {
     .container {
         width: 100%;
