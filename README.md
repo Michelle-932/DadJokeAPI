@@ -3,9 +3,9 @@
 
 ## Introduction
 
-The Dad Jokes App is a simple web application that brings humor and heartwarming memories together. It combines classic dad jokes from a public API with a special twist—it cycles through different pictures of you and your late father, making it a touching and memorable experience.
+The Dad Jokes App is a simple web application that brings humor and memories together. It combines classic dad jokes from a public API with a special twist -- it cycles through different pictures of me and my late father, making it memorable and personal. 
 
-This app is not just about laughter; it's a tribute to your father's memory, who was an engineer and the inspiration behind your own tech career. It's a way to cherish the moments and humor you shared with him while showcasing your skills as an engineer.
+My father was an engineer who absolutely loved telling terrible jokes! I built this as a little tribute, especially since he's the inspiration for my own tech career. 
 
 ![Dad Jokes App Screenshot](https://i.imgur.com/4AWtDfn.png)
 
