@@ -7,7 +7,7 @@ The Dad Jokes App is a simple web application that brings humor and memories tog
 
 My father was an engineer who absolutely loved telling terrible jokes! Every time I open this app, it makes me smile. He is definitely an inspiration for not only my tech career, but my sense of humor!
 
-![Dad Jokes App Screenshot](https://i.imgur.com/4AWtDfn.png)
+![Dad Jokes App Screenshot](https://i.imgur.com/R0jLVv1.png)
 
 ## Features
 
