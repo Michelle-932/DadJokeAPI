@@ -7,6 +7,8 @@ The Dad Jokes App is a simple web application that brings humor and memories tog
 
 My father was an engineer who absolutely loved telling terrible jokes! Every time I open this app, it makes me smile. He is definitely an inspiration for not only my tech career, but my sense of humor!
 
+<i>(Learn more: <a href="https://www.linkedin.com/pulse/from-navy-nikon-my-dads-history-tech-michelle-kirkland">From the Navy to Nikon: My Dad's History in Tech</a>)</i>
+
 ![Dad Jokes App Screenshot](https://i.imgur.com/R0jLVv1.png)
 
 ## Features
@@ -25,7 +27,7 @@ My father was an engineer who absolutely loved telling terrible jokes! Every tim
 1. Open the app by launching the `index.html` file in your web browser.
 2. Click the "Get a Dad Joke" button to generate a new dad joke.
 3. Add your own favorite photos and adjust the javascript accordingly.
-4. You can make this app a tribute, as I did, or you could make it a very creative gift -- you could upload it and text it to your dad. Or, you can change the API to show advice, quotes, or religious verses while cycling through whatever photos you choose.
+4. You can make this app a tribute, as I did, or you could make it a very creative gift -- you could make one for your dad. Or, you can change the API to show advice, quotes, or religious verses while cycling through whatever photos you choose.
 
 ## Credits
 
